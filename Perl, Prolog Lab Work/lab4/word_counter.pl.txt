@@ -1,0 +1,37 @@
+#!/usr/bin/perl
+
+use warnings;
+use strict;
+
+my %f=();
+my $tot=0;
+
+
+while (<>) {
+    while (/\w+/gi) {
+        my $l = $&;
+        $f{lc $l} += 1;
+        $tot ++;
+    }
+}
+
+print "10 most common words are: ";
+my $counter=1;
+for (sort { $f{$b} <=> $f{$a} } keys %f) {
+	print "$_";
+	$counter++;
+	if($counter<=10){
+	    print ",";}
+	if($counter>10){
+	    last;}
+}
+
+print "\n\nThe number of hapax legomena is ";
+my $hapaxcount=0;
+
+for (sort keys %f) {
+    if($f{$_} == 1) {
+	$hapaxcount++;}
+}
+
+print $hapaxcount;

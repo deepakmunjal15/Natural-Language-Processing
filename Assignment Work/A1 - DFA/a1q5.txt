@@ -1,0 +1,18 @@
+Ans 5 b)
+
+Words that this DFA accepts can be described as:-
+
+a(!b)*b(!a)*aa*(!a(!a)*aa*)*
+
+1. First alphabet has to be an "a".
+2. Then any alphabet except "b", which can be repeated 0 or more times.
+3. Followed by alphabet "b".
+4. Then any alphabet except "a", which can be repeated 0 or more times.
+5. Next alphabet has to be an "a".
+6. Followed by 0 or more alphabet "a".
+7. Then after this, any alphabet except "a", followed by any alphabet except 
+"a" repeated 0 or more times. Then followed by next alphabet as "a" and followed 
+by alphabet "a" repeated 0 or more times.
+8. And this step 7 can be repeated 0 or more times.
+
+This leads us to the final stage i.e. the words that will be accepted.

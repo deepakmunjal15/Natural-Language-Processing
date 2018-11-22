@@ -1,0 +1,167 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>CSCI 4152/6509 -- Natural Language Processing</title>
+<meta name="author" content="Vlado Keselj" />
+<meta name="copyright" content="(c) 2017 Vlado Keselj" />
+<meta name="keywords" content="" />
+<link href="style.css" rel="StyleSheet" type="text/css" />
+<link href="printstyle.css" media="print" rel="StyleSheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="white">
+<!-- AUTOMATICALLY GENERATED - DO NOT EDIT -->
+<table>
+<tr><td valign=top>
+<a href="http://www.cs.dal.ca"><img src="/~vlado/dal-logo/DalLogoNew.gif" border=0 align=center alt="Dalhousie University"></a>
+</td>
+<td>&nbsp;&nbsp;</td>
+<td valign=top id=terminfo>
+[&nbsp;&nbsp;<font size=-1><a href="http://web.cs.dal.ca/~vlado/csci6509">http://web.cs.dal.ca/~vlado/csci6509</a></font>&nbsp;&nbsp;]
+<br>
+Winter 2017 (Jan9-Apr10)<br>
+Faculty of Computer Science<br>
+Dalhousie University<br>
+</td></tr>
+</table>
+
+<h2> CSCI 4152/6509 &mdash; Natural Language Processing </h2>
+[ <span style="bottom: -0.3em; position: relative;">Home</span> |
+<a href="coursecalendar.html">Calendar</a> |
+<a href="project.html">Project</a> |
+<a href="misc/">Misc</a> |
+<a href="a0/">A0</a> ]<hr>
+<table>
+<tr><th align=right valign=top> Time:     </th><td> <b>Lectures:</b> Mon-Tue-Thu 13:35-14:25; <b>Labs:</b> <b>CSCI4152:</b> Fri 11:35-12:55, <b>CSCI6509:</b> Fri 14:35-15:55 </td></tr>
+<tr><th align=right valign=top> Location: </th><td> <b>Lectures:</b> McCain FASS 2016; <b>Labs:</b> <b>CSCI4152:</b> CS133 (T.Lab 1), <b>CSCI6509:</b> CS330 (T.Lab 5), Goldberg CS building </td><tr>
+<tr>
+<th align=right valign=top> Instructor: </th><td><a href="http://web.cs.dal.ca/~vlado">Vlado Keselj,</a>
+office: CS bldg 432,
+phone: TBA,
+e-mail: vlado@dnlp.ca
+</td>
+</tr>
+<tr><th align=right valign=top>Office&nbsp;hours:</th><td> "Open-door" policy, unless in a meeting or on a phone call. To be sure that I am available, please make an appointment by e-mail. </td></tr>
+<tr><th align=right> TA: </th><td> <a href="http://web.cs.dal.ca/~jankowsk">Magdalena Jankowska</a>, email: jankowsk@cs.dal.ca </td><tr>
+<tr><th align=right> E-mail list: </th><td> nlp-course@lists.dnlp.ca </td><tr>
+</table>
+
+<hr>
+<h3>Course Description</h3>
+
+<p>
+Natural Language Processing (NLP) is an area of Computer Science, and
+sub-area of Artificial Intelligence, concerned with the problem of
+automatically processing natural languages in written and spoken form.
+Processing typically denotes analyzing or generating language, and
+natural languages include languages such as English, French, or other.
+This course introduces fundamental concepts and principles used in NLP
+with emphasis on two approaches to NLP: statistical and
+unification-based.
+Some applications are discussed, such as the problems of text
+classification, information extraction, and question answering.
+<p>
+Links to calendar descriptions:
+<a href="http://academiccalendar.dal.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&entitytype=CID&entitycode=CSCI+4152">CSCI 4152</a>, and
+<a href="http://academiccalendar.dal.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&entitytype=CID&entitycode=CSCI+6509">CSCI 6509</a>.
+<p>
+<p>
+<h3> Evaluation Scheme</h3>
+
+<table cellpadding=0>
+<tr><td valign=top> 32% </td><td> Assignments
+</td></tr>
+<tr><td valign=top> 10% </td><td> Presentation and Class Participation </td></tr>
+<tr><td valign=top> 26% </td><td> Project Deliverables (P0, P1, Report) </td></tr>
+<tr><td valign=top> 32% </td><td> Final exam </td></tr>
+</table>
+Note: The difference between 4152 and 6509 evaluation is mainly
+expressed in the project requirements and evaluation.
+
+<p><a href="AcademicIntegrity.html">Academic Integrity Policy</a>
+
+<p>
+<a href="coursecalendar.html">Course Calendar</a><br>
+<a href="/~vlado/nlp">NLP Research Links</a><br>
+
+
+
+
+<!--
+<p>
+<table>
+<tr><th>Assignments</th><th>Course Project</th></tr>
+<tr>
+<td valign=top>
+<b>Assignment 1:</b> <a href="a1.ps">PostScript</a>, <a href="a1.pdf">PDF</a><br>
+input files: <a href=smalltext>smalltext</a>,
+<a href="reut2-000.sgm">reut2-000.sgm</a>
+<br>
+<b>Assignment 2:</b> <a href="a2.ps">PostScript</a>, <a href="a2.pdf">PDF</a><br>
+<a href="priv/wsj">data</a>
+<br>
+<b>Assignment 3:</b> <a href="a3.ps">PostScript</a>, <a href="a3.pdf">PDF</a>
+</td>
+<td valign=top>
+<ul>
+<li> <a href="project.html">About Course Project</a>
+<li> <a href="priv/projectideas.html">Project Ideas (password protected)</a>
+</ul>
+</td>
+</tr>
+</table>
+-->
+
+
+<h3> References </h3>
+
+<table>
+<tr><th align=left valign=top>Required Textbook:
+</th><tr><td><ol>
+<li> 
+<em>Speech and Language Processing</em> by
+   Daniel Jurafsky and James H. Martin,
+edition    2,  Prentice-Hall, Inc.,       2008, ISBN       978-0-13-187321-6.. <a href="       http://www.cs.colorado.edu/~martin/slp.html">       http://www.cs.colorado.edu/~martin/slp.html</a>
+
+</ol></td></tr>
+<tr><th align=left valign=top>Recommended Reading:</th><tr><td><ol>
+<li> 
+<em>Learning Perl, 6th Edition</em> by
+   Randal L. Schwartz, brian d foy, Tom Phoenix,
+edition    6th Edition,  O'Reilly,       2011.. <i> Available on-line from Dalhousie:</i>&nbsp;<a href="      http://proquestcombo.safaribooksonline.com/9781449311063?uicode=dalhousie">      http://proquestcombo.safaribooksonline.com/9781449311063?uicode=dalhousie</a>
+<li> 
+<em>Natural Language Processing with Python</em> by
+   Steven Bird, Ewan Klein, Edward Loper,
+edition    1st edition,  O'Reilly,       2009, ISBN       978-0-596-51649-9.. <a href="       http://oreilly.com/catalog/9780596516499/">       http://oreilly.com/catalog/9780596516499/</a>
+<li> 
+<em>Foundations of Statistical Natural Language Processing</em> by
+Christopher Manning and Hinrich Schuetze, The MIT Press, 1999, ISBN 0-262-13360-1.. <a href="http://www-nlp.stanford.edu/fsnlp/">http://www-nlp.stanford.edu/fsnlp/</a>
+<li> 
+<em>Syntactic Theory: A Formal Introduction</em> by
+   Ivan A. Sag and Thomas Wasow,  CSLI Publications, Stanford,       1999, ISBN       0-521-58388-8.
+<li> 
+<em>Modern Information Retrieval</em> by
+   Ricardo Baeza-Yates and Berthier Ribeiro-Neto,  Addison Wesley,       1999, ISBN       020139829X.
+<li> 
+<em>Pattern Recognition and Machine Learning</em> by
+    Chrisopher M. Bishop,  Springer,       2006, ISBN       0-38-731073-8.
+<li> 
+<em>Statistical Language Learning</em> by
+Eugene Charniak, The MIT Press, 1993.
+<li> 
+<em>Statistical Methods for Speech Recognition</em> by
+Frederick Jelinek, The MIT Press, 1997.
+<li> 
+<em>Artificial Intelligence: A Modern Approach</em> by
+Stuart Russell and Peter Norvig,
+edition 2nd edition, Prentice Hall, 2003, ISBN 0-13-790395-2.. <a href="http://aima.cs.berkeley.edu/">http://aima.cs.berkeley.edu/</a>
+</ol></td></tr>
+</table>
+<HR>
+<address>
+Maintained by: <a HREF="http://web.cs.dal.ca/~vlado">Vlado Keselj</a>, last update: 20-Jan-2017
+</address>
+</BODY>
+</HTML>

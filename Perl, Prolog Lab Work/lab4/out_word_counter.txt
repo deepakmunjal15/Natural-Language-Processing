@@ -1,0 +1,3 @@
+10 most common words are: the,and,a,to,of,it,he,was,that,i
+
+The number of hapax legomena is 3475

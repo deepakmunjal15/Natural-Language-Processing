@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+#replace.pl
+use warnings;
+use strict;
+
+while(<>) { #<> reads one line of input into the default variable
+
+###Below you would need to add a missing line of code
+###that will replace within the default variable
+###all the occurances of case-insensitive 'book' (book, Book, BOOK, etc)
+###with the lowercase string 'book'
+###MISSING LINE GOES HERE
+    if(/(^book$|\sbook\s|^book\s|\sbook$)/i){s/book/book/gi;}
+#This will convert all occurances of word "book", independent of case sensitiv
+#ity, in a line to lowercase. This has been written in such a way so as to 
+#handle only the word "book", in any case, stricly. this means it won't convert
+#substring containing book but only the word book as a whole.
+### AFTER THE MISSING LINE
+
+    print; #this line prints the default variable $_
+}

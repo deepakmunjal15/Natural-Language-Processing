@@ -1,0 +1,8 @@
+This is <h1>a test</h1>.
+This line has no tags.
+
+<H2>Multiple tags</h2> in a <h3>Line.</h3>
+<h4 atr=1>Attributes included</h4>
+and <h5a>not this one</h5a>
+<h1>so</h1>
+<h1 > on.... </H1>

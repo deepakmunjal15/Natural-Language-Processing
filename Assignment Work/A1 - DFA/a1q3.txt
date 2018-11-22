@@ -1,0 +1,52 @@
+The levels of NLP are - 
+
+1. Phonetics -  
+This comprises of study of the sounds of human speech. 
+Physical sounds of language are processed.
+Speech generation and analysis is done as part of this.
+
+2. Phonology - 
+It mainly deals with the systematic organization of sounds 
+in languages. It is mostly concerned with phonemes. A phoneme 
+is an elementary sound unit of a language.
+
+3. Morphology - 
+It mainly analyses the structure of the words and part of words. 
+It is study of how different words are related to each other in 
+the same language.
+
+4. Syntax - 
+It deals with the sentence structure.It is the grammatical arrangement 
+of words in a sentence. With a sentence as input, parse tree is produced in this. 
+These parse trees can be of various types like - Context-free parse trees and 
+dependency parse trees.
+
+5. Semantics - 
+It is manily concerned with the meaning of the language upto sentence level.
+Semantics has many branches like formal semantics, lexical semantics etc. 
+Formal semantics deals with the logical aspects of meaning, while lexical 
+semantics studies the word meanings and relations.
+
+6. Pragmatics - 
+This deals with the practical and intended meaning of a language and is mainly 
+concerned about the context of language. Eg. "He saw the man with binoculars." 
+this could mean he observed that man by using binoculars, or it could also mean 
+that he observed a man who was holding binoculars. This is the ambiguity in pragmatics.
+
+7. Discourse - 
+This deals with the spoken or written communication or debate and is mainly 
+concerned about language structure beyond sentence level. Document structure, 
+inter-sentence relations and references are studied in this. Eg. speech acts.
+
+
+
+
+
+
+
+
+
+References - 
+https://en.wikipedia.org
+https://web.cs.dal.ca/~vlado/csci6509/notes
+http://dictionary.cambridge.org/dictionary/english/

@@ -1,0 +1,56 @@
+Transformation of a word, which happens as a regular language transformation is 
+known as Morphological process. In this, stem gets changed to adjust the meaning 
+to fit its communicational and syntactic context. In English, mainly there are 3 
+morphological processes:-
+
+1. Inflection -
+In Inflection, a word from a lexical class is transformed into other related word 
+in the same class. Suffix or prefix can be added or changed to do this transformation.
+Examples are- dog -> dogs, work -> works etc.
+
+2. Derivation -
+In Derivation, a word from a lexical class is transformed into other related word 
+in a different class. In this also, Suffix or prefix can be added or changed to do 
+this transformation. Eg. accept, which is a verb can be transformed to acceptable, 
+which is an adjective, by derivation.
+
+3. Compounding -
+In Compounding, generally a new word is created by combining two or more words. 
+Example - one word foot and other word path can be combined to create a new 
+word footpath.
+
+
+Brief description of Derivation :-
+
+It is a transformation in which a word from a lexical class is transformed into 
+a related word in a different class. In terms of regularity, it is less regular 
+than inflection. The difference between derivation and inflection is that in 
+inflection a word is modified to form different grammatical categories without 
+changing its core meaning i.e. it makes grammatical variants of the same word 
+but derivation produces a new word i.e. a distinct lexeme. Addition of derivational 
+suffix or other affix is done in derivation. Such affixes are generally applied to 
+words of a lexical category and changes them into words of some other category.
+
+Eg. the derivational suffix "ly" in English language generally changes adjectives 
+into adverbs like the word slow is transformed into another word slowly. However, 
+in few cases, a derivation can also be used for transforming a word in one lexical 
+class to other word in the same lexical class, but this word is significantly a 
+different word. Eg. the word red to other word redish is a derivation. Other examples 
+include -
+noun to verb: glory -> glorify
+noun to adjective: recreation -> recreational
+adjective to verb: modern -> modernise
+adjective to noun: slow -> slowness
+verb to adjective: drink -> drinkable
+etc.
+
+
+
+
+
+
+
+References-
+https://web.cs.dal.ca/~vlado/csci6509/notes/nlp07.pdf
+http://www-01.sil.org/linguistics/glossaryoflinguisticterms/WhatIsAMorphologicalProcess.htm
+https://en.wikipedia.org/wiki/Morphological_derivation

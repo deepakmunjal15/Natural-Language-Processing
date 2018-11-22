@@ -1,0 +1,86 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+use lib 'echo -n ~prof6509'.'/public';
+use Text::Ngrams;
+
+my $q=0;
+my $r=0;
+my @a=();
+my @b=();
+my @c=();
+my @d=();
+while(<>){
+    if(/^(\S+?):\s*(.*)$/){
+	my $text=$2;
+	my $n=3;
+	my $ng=Text::Ngrams->new( windowsize => $n);
+	$ng->process_text($text);
+	my %a=$ng->get_ngrams( n=>$n, normalize => 1);
+	@b=%a;
+	$c[$q]=$1;
+	$d[$r]=$q;
+	for(my $p=0;$p<=$#b;$p++){
+	    $c[$q+1]=$b[$p];
+	    $q++;
+	}
+	$q=$q+1;
+	$r=$r+1;
+    }
+}
+$c[$q]="END";
+$d[$r]=$q;
+my $last=$#d;
+my @e=();
+for(my $k=0;$k<=$last-2;$k++){
+    for(my $m=1;$m<=$last-$k-1;$m++){
+	my $sum=0;
+	my $sum1=0;
+	my $y=0;
+	my $ptr1=$y;
+	for(my $g=$d[$k];$g<=$d[$k+1]-1;$g++){
+	    $e[$y]=$c[$g];
+	    $y++;
+	}
+	my $ptr2=$y;
+	for(my $h=$d[$k+$m];$h<=$d[$k+$m+1]-1;$h++){
+	    $e[$y]=$c[$h];
+	    $y++;
+	}
+	my $ptr3=$y;
+	$e[$y]="END";
+	for(my $i=$ptr1+1;$i<=$ptr2-1;$i=$i+2){
+	    my $f1=$e[$i+1];
+	    my $f2=0;
+	    for(my $j=$ptr2+1;$j<=$ptr3-1;$j=$j+2){
+		if($e[$i] eq $e[$j]){
+		    $f2=$e[$j+1];
+		    $e[$j]="matched";
+		    $e[$j+1]="matched";
+		}
+	    }
+	    $sum=((2*($f1-$f2))/($f1+$f2))**2+$sum;
+	}
+	for(my $t=$ptr2+1;$t<=$ptr3-1;$t=$t+2){
+	    if($e[$t] ne "matched"){
+		$sum1=4+$sum1;
+	    }
+	}
+	$sum=$sum+$sum1;
+	print "$e[$ptr1] $e[$ptr2]: $sum\n";
+    }
+}
+
+#Description
+#This is a generalized program that will work with any number of documents.
+#Here we first took all the input of documents and saved their trigrams in
+#an associative array named a using the code given in our reference text
+#and using the modules provided. Then all that data is saved in an array b.
+#After that we saved all the input documents data into an array c with their
+#identifiers. Then we created an array d which contains indexes of identifiers
+#of documents stored in array c. After that while computing cng distance we
+#took a copy of the two documents that we work on for computing cng distance
+#and that copy is stored in array e. Then finally the document identifiers
+#along with their cng distances are printed.
+#Reference- https://web.cs.dal.ca/~vlado/csci6509/a2/a2.pdf

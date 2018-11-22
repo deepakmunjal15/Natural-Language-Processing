@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+use warnings;
+use strict;
+
+sub conc {
+    my $q = "";
+    my @a = sort @_; #used a different array to keep the default array @_ unchanged.
+    while(@a){ $q .= shift(@a) } #concatenating values of sorted array using shift.
+    return $q;
+}
+
+print (&conc('aaa','ccc'));
+print "\n";
+print (&conc('ccc','aaa'));
+print "\n";
